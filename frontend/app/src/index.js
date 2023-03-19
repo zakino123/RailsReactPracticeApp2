@@ -4,12 +4,16 @@ import './index.css';
 import ShoppingList from './ShoppingList';
 import UserList from './UserList';
 import reportWebVitals from './reportWebVitals';
+import Game from './UserList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  // <React.StrictMode>
+  //   <ShoppingList />
+  //   <UserList />
+  // </React.StrictMode>
   <React.StrictMode>
-    <ShoppingList />
-    <UserList />
+    <Game />
   </React.StrictMode>
 );
 
